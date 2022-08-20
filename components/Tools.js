@@ -64,16 +64,7 @@ export const Tools = (props) => {
           })}`
         );
       }
-      if (option.includes("asc")) {
-        router.push(
-          `?${json2query({
-            ...router.query,
-            sort_by: "id",
-            order: "asc",
-            page_id: 0,
-          })}`
-        );
-      }
+
     }
   };
 

@@ -24,7 +24,7 @@ function Home({ title, img, description, nfts, pages, filters }) {
       ref={ref}
     >
       <Head>
-        <title>{title}</title>
+        <title>lilverse ranker</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
